@@ -51,18 +51,3 @@ print('\n thank you for using this script')
 print('\n made with \u2764\uFE0F  and \u2615 by Keyvan Hardani')
 input('\n please enter any keys to exit')
 exit()
-php','/templates/ja-helio-farsi/index.php','/wp-admin/m4d.php','/d.php']
-foundshells = []
-
-for shell in shells:
-    site = website.replace('http://','')
-    shell = shell.replace('/', '', 1 )
-    host = site + '/' + shell
-    conn = http.client.HTTPConnection(site)
-    conn.connect()
-    request = conn.request('GET',shell)
-    response = conn.getresponse()
-    #print(response.status)
-    if response.status == 200: 
-        print ('\n\t[+] Shell found %s \n' %host)
- 
