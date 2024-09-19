@@ -17,8 +17,8 @@ def clearing():
         
 banner()
 website = input('\n Enter your target URL: ')
-shells = ['wp-includes/assets/ts.php','wp-includes/ID3/ts.php','wp-includes/IXR/ts.php','wp-includes/PHPMailer/ts.php','wp-includes/Requests/library/ts.php','wp-includes/Requests/src/Auth/ts.php','wp-includes/Requests/src/Cookie/ts.php','wp-includes/Requests/src/Exception/Http/ts.php','wp-includes/Requests/src/Exception/Transport/ts.php','
-wp-includes/Requests/src/ts.php','wp-includes/Requests/src/Proxy/ts.php','wp-includes/Requests/src/Response/ts.php/','wp-includes/Requests/src/Transport/ts.php','wp-includes/Requests/src/Utility/ts.php','wp-includes/SimplePie/XML/Declaration/ts.php','wp-includes/SimplePie/XML/ts.php','wp-includes/SimplePie/Parse/ts.php','wp-includes/SimplePie/Net/ts.php','wp-includes/SimplePie/HTTP/ts.php','wp-includes/SimplePie/Decode/HTML/ts.php','wp-includes/SimplePie/Decode/ts.php','wp-includes/SimplePie/Content/Type/ts.php','wp-includes/SimplePie/Content/ts.php','wp-includes/SimplePie/Cache/ts.php']
+shells = ['wp-includes/assets/ts.php','wp-includes/ID3/ts.php','wp-includes/IXR/ts.php','wp-includes/PHPMailer/ts.php','wp-includes/Requests/library/ts.php','wp-includes/Requests/src/Auth/ts.php','wp-includes/Requests/src/Cookie/ts.php','wp-includes/Requests/src/Exception/Http/ts.php','wp-includes/Requests/src/Exception/Transport/ts.php',
+'wp-includes/Requests/src/ts.php','wp-includes/Requests/src/Proxy/ts.php','wp-includes/Requests/src/Response/ts.php/','wp-includes/Requests/src/Transport/ts.php','wp-includes/Requests/src/Utility/ts.php','wp-includes/SimplePie/XML/Declaration/ts.php','wp-includes/SimplePie/XML/ts.php','wp-includes/SimplePie/Parse/ts.php','wp-includes/SimplePie/Net/ts.php','wp-includes/SimplePie/HTTP/ts.php','wp-includes/SimplePie/Decode/HTML/ts.php','wp-includes/SimplePie/Decode/ts.php','wp-includes/SimplePie/Content/Type/ts.php','wp-includes/SimplePie/Content/ts.php','wp-includes/SimplePie/Cache/ts.php']
 foundshells = []
 
 for shell in shells:
